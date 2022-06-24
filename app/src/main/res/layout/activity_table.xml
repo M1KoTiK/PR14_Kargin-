@@ -19,6 +19,15 @@
             android:backgroundTint="#212121"
             android:layout_height="match_parent">
 
+            <ImageView
+                android:id="@+id/btn_back"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="5dp"
+                android:src="@android:drawable/ic_menu_revert"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
             <ScrollView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -41,6 +50,7 @@
                         app:cardCornerRadius="7dp">
 
                         <LinearLayout
+                            android:id="@+id/btn_lin_borsh"
                             android:layout_width="match_parent"
                             android:layout_height="45dp"
                             android:orientation="horizontal">
